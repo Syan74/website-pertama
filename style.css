@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial,sans-serif;
+}
+nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+/* nav .nama { 
+color: white;
+font-size: 20px;
+font-weight: bold;
+}*/
+nav .logo img {
+    width: 80px;
+    height: 80px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;    
+}
+nav ul button {
+    background-color: black;
+    color: white;
+    font-size: inherit;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+nav ul button:hover{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
